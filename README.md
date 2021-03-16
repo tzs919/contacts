@@ -9,3 +9,9 @@
 ### Actuator
 #### /autoconfig  使用了哪些自动配置（positiveMatches）
 #### /beans，包含bean依赖关系
+`数据库处理：由starter-jdbc和H2驱动，
+自动创建DataSource（内存）和JdbcTemplate等，
+并自动发现schema.sql，在数据库中执行。
+mvn spring-boot:run
+内嵌tomcat运行，默认端口号8080
+`

@@ -46,4 +46,15 @@ public class Contact {
   public String getEmailAddress() {
     return emailAddress;
   }
+
+  @Override
+  public String toString() {
+    return "Contact{" +
+            "id=" + id +
+            ", firstName='" + firstName + '\'' +
+            ", lastName='" + lastName + '\'' +
+            ", phoneNumber='" + phoneNumber + '\'' +
+            ", emailAddress='" + emailAddress + '\'' +
+            '}';
+  }
 }
